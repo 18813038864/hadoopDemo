@@ -1,0 +1,14 @@
+九月 01, 2018 5:57:58 下午 com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+信息: Registering org.apache.hadoop.mapreduce.v2.app.webapp.JAXBContextResolver as a provider class
+九月 01, 2018 5:57:58 下午 com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+信息: Registering org.apache.hadoop.yarn.webapp.GenericExceptionHandler as a provider class
+九月 01, 2018 5:57:58 下午 com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+信息: Registering org.apache.hadoop.mapreduce.v2.app.webapp.AMWebServices as a root resource class
+九月 01, 2018 5:57:58 下午 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+信息: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+九月 01, 2018 5:57:58 下午 com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+信息: Binding org.apache.hadoop.mapreduce.v2.app.webapp.JAXBContextResolver to GuiceManagedComponentProvider with the scope "Singleton"
+九月 01, 2018 5:57:59 下午 com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+信息: Binding org.apache.hadoop.yarn.webapp.GenericExceptionHandler to GuiceManagedComponentProvider with the scope "Singleton"
+九月 01, 2018 5:58:00 下午 com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+信息: Binding org.apache.hadoop.mapreduce.v2.app.webapp.AMWebServices to GuiceManagedComponentProvider with the scope "PerRequest"

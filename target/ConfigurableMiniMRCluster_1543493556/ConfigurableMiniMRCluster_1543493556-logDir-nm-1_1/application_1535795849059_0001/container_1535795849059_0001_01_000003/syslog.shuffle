@@ -1,0 +1,19 @@
+2018-09-01 17:58:24,141 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=130652568, maxSingleShuffleLimit=32663142, mergeThreshold=86230696, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2018-09-01 17:58:24,144 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1535795849059_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2018-09-01 17:58:24,157 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1535795849059_0001_r_000000_0: Got 1 new map-outputs
+2018-09-01 17:58:24,162 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning lenovo.lan:1489 with 1 to fetcher#1
+2018-09-01 17:58:24,163 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to lenovo.lan:1489 to fetcher#1
+2018-09-01 17:58:24,836 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=1489/mapOutput?job=job_1535795849059_0001&reduce=0&map=attempt_1535795849059_0001_m_000000_0 sent hash and received reply
+2018-09-01 17:58:24,848 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#1 about to shuffle output of map attempt_1535795849059_0001_m_000000_0 decomp: 24 len: 28 to MEMORY
+2018-09-01 17:58:24,852 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 24 bytes from map-output for attempt_1535795849059_0001_m_000000_0
+2018-09-01 17:58:24,855 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 24, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->24
+2018-09-01 17:58:24,857 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2018-09-01 17:58:24,857 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: lenovo.lan:1489 freed by fetcher#1 in 694ms
+2018-09-01 17:58:24,866 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2018-09-01 17:58:24,906 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2018-09-01 17:58:24,907 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 17 bytes
+2018-09-01 17:58:24,952 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 1 segments, 24 bytes to disk to satisfy reduce memory limit
+2018-09-01 17:58:24,959 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 28 bytes from disk
+2018-09-01 17:58:24,961 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2018-09-01 17:58:24,962 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2018-09-01 17:58:24,973 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 17 bytes
